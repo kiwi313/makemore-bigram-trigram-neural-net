@@ -32,10 +32,10 @@ The models were trained only on the training set.
 Model performance was evaluated using **negative log likelihood (NLL)**
 (i.e. cross-entropy without regularization).
 
-| Model   | Dev NLL | Test NLL |
-| ------- | ------: | -------: |
-| Bigram  |     ... |      ... |
-| Trigram |     ... |      ... |
+| Model | Dev NLL | Test NLL |
+|---|---:|---:|
+| Bigram | 2.4816 | 2.4656 |
+| Trigram | 2.5074 | 2.4981 |
 
 ## Key Observations
 
