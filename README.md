@@ -40,7 +40,7 @@ Model performance was evaluated using **negative log likelihood (NLL)**
 ## Key Observations
 
 * The trigram model has access to more context than the bigram model.
-* However, in this simple neural network setup, it did **not significantly improve** performance on the dev/test sets.
+* However, in this simple neural network setup, it did **not improve** performance on the dev/test sets.
 * This suggests that increasing context size alone does not guarantee better generalization.
 
 In some cases, the trigram model may better fit the training data, but this does not necessarily translate to better performance on unseen data.
